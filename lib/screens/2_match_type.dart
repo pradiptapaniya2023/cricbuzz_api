@@ -32,7 +32,7 @@ class _MatchTypeState extends State<MatchType> {
         ),
       ),
       body: MatchType.cm != null
-          ? ListView.builder(
+          ?  ListView.builder(
               itemCount: MatchType.cm!.typeMatches!.length,
               itemBuilder: (context, index) {
                 return Padding(
